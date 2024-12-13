@@ -1,3 +1,4 @@
+## About me 
 hi, i'm daniel akinola femi, i'm a computer scientist ardent about technology and innovation. currently pursuing a bachelor's degree at the university of south wales,My curiosity about certain topics, such as software development, artificial intelligence, and sports analytics is what motivates me.i'm eager to grow, learn, and contribute to worthwhile projects that have an influence.
 
 what i am doing
