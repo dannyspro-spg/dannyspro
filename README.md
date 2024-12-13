@@ -16,28 +16,38 @@
         header {
             background-color: #0078d7;
             color: #fff;
-            padding: 1rem 0;
+            padding: 2rem 0;
             text-align: center;
+            position: relative;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.8rem;
         }
         header p {
             margin: 0.5rem 0 0;
             font-size: 1.2rem;
         }
+        header img {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+            height: auto;
+        }
         section {
-            max-width: 800px;
+            max-width: 900px;
             margin: 2rem auto;
-            padding: 1rem;
+            padding: 1.5rem;
             background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         section h2 {
             color: #0078d7;
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            text-align: center;
         }
         ul {
             list-style-type: none;
@@ -45,6 +55,13 @@
         }
         ul li {
             margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        ul li img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
         }
         footer {
             text-align: center;
@@ -71,6 +88,7 @@
     <header>
         <h1>Daniel Akinola Femi</h1>
         <p>🎓 Computer Scientist | Passionate About Technology & Innovation</p>
+        <img src="https://media.giphy.com/media/hvR3CLFzcasrR41a7z/giphy.gif" alt="GIF of a laptop">
     </header>
 
     <section>
@@ -86,11 +104,14 @@
 
     <section>
         <h2>🛠️ Skillset</h2>
-        <p>I've developed some talent in the field of software development while studying C++ at university, and I can create successful programs with an intense focus on performance and scalability.</p>
         <ul>
-            <li><strong>Programming Languages:</strong> C++, Python, JavaScript</li>
-            <li><strong>Technologies:</strong> Flutter, Firebase, Google Fit API, HTML, CSS</li>
-            <li><strong>Other Skills:</strong> Problem-solving, teamwork, and project management</li>
+            <li><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" alt="C++"> C++</li>
+            <li><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python"> Python</li>
+            <li><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript"> JavaScript</li>
+            <li><img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" alt="Flutter"> Flutter</li>
+            <li><img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain.svg" alt="Firebase"> Firebase</li>
+            <li><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="HTML"> HTML</li>
+            <li><img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="CSS"> CSS</li>
         </ul>
     </section>
 
